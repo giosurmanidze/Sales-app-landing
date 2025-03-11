@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+
+}
+
+.header {
+  padding: 15px 0;
+}
+
+/* Global Scrollbar Styles */
+/* Webkit (Chrome, Safari, newer Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #02B7FA;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00A0E3; /* Slightly darker blue on hover */
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #02B7FA transparent;
+}
